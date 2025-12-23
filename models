@@ -1,0 +1,10 @@
+This is the Databse of the Project 
+we created databse over here 
+**Models = Database blueprint**
+
+Django never touches the database automatically
+We created a category model and Because Django models represent database tables, and makemigrations converts model changes into database instructions
+We did: **python manage.py makemigrations**
+whichi means database is created and after that we did
+**python manage.py migrate**
+It applies them to the database
